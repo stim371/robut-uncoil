@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+require './lib/robut_uncoil'
 # require 'version file' # if version file is in lib directory
 
 Gem::Specification.new do |s|
@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard-rspec"
   
   s.add_runtime_dependency "uncoil"
+  s.add_runtime_dependency "robut"
 end
