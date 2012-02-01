@@ -6,4 +6,4 @@ A Plugin for [Robut](https://github.com/justinweiss/robut) that allows you expan
 Since the plugin is still in development, this is the expected behavior:
 
     user_a  > @robut uncoil http://bit.ly/2EEjBl
-    robut   > @user_a that url goes to http://www.cnn.com/ (you asked about http://bit.ly/2EEjBl)
+    robut   > @user_a http://bit.ly/2EEjBl goes to http://www.cnn.com/

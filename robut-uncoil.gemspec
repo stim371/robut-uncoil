@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-require './lib/robut_uncoil'
+# require './lib/robut_uncoil'
+require File.expand_path('../lib/robut_uncoil', __FILE__)
 # require 'version file' # if version file is in lib directory
 
 Gem::Specification.new do |s|
