@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
-# require './lib/robut_uncoil'
+require './lib/robut-uncoil/version'
 require File.expand_path('../lib/robut_uncoil', __FILE__)
 # require 'version file' # if version file is in lib directory
 
 Gem::Specification.new do |s|
   s.name          = 'robut-uncoil'
-  s.version       = ::Robut::Plugin::RobutUncoil::VERSION
+  s.version       = Robut::Plugin::RobutUncoil::VERSION
   s.authors       = ["Joel Stimson"]
   s.email         = 'contact@cleanroomstudios.com'
   s.homepage      = "https://github.com/stim371/robut-uncoil"
